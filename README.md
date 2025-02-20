@@ -1,1 +1,7 @@
-starter
+This small program looks to check the strength of a given password to see if it meets certain criteria of being a weak, good, or strong password. The string given by the user is taken in and checked against standard password criteria length, mixture of uppercase and lowercase letters, numbers, and inclusion of special characters. It then returns to the console weak if it only matches 0-2 criteria. Good is returned if it matches 3-4 of the criteria. And it returns Strong if the password matches all the criteria.
+
+To run the program simply clone the code onto your local environment and execute the file in your terminal. It should prompt you for a password that you will enter and then return the strength of the password it was given based on the above criteria. 
+
+This is program was developed for educational use only and is not recommended to securely vet your password strength. While the criteria it checks are good baseline rules for creating strong passwords it does not take into account numerous other password strengthening processes.
+
+With the above stated limitations of the program users may use the program to check their password strength but should not solely rely on it as the end all be all of determining if their password is actually strong. The program could lead someone to believe a password such as Password111! is a strong password. While it is stronger than something like 1234 as your password it is still quite easy to defeat. Users should apply common password creation principles such as not using easily found information as a basis for their password. 
